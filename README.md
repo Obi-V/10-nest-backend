@@ -7,7 +7,7 @@ Por falta de tiempo obviamente no estoy documentando y comentando todo como debe
   
 
 Solo recomiendo el proyecto para personas más avanzadas y que tengan ganas de trastearlo.  
-De hecho solo actualmente solo tiene dos enpoints que funcionan, una actividad interesante sería ver su funcionamiento y que completases los demás. Puede ser un reto pero no imposible :D
+De hecho actualmente solo tiene dos enpoints que funcionan, una actividad interesante sería ver su funcionamiento y que completases los demás. Puede ser un reto pero no imposible :D
 
 ## Instalaciones necesarias
 Necesario: `MongoDBCompass`( Base de datos no relacional),
