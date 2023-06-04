@@ -4,8 +4,9 @@ import { Prop, Schema, SchemaFactory } from "@nestjs/mongoose";
 @Schema()
 export class User {
 
-    // Lo coloca mongo
-    // _id: string;
+    // Lo coloca mongo por eso no es obligatorio para crearlo, 
+    // pero necesito que a veces exista la propiedad para extraerla en el JWT, por eso es ? optional
+     _id?: string;
 
     @Prop({ unique: true, required: true })
     email: string;
@@ -14,7 +15,7 @@ export class User {
     name: string;
 
     @Prop({ minlegth:6, required: true })
-    password: string;
+    password?: string;
 
     @Prop({ default: true })
     isActive: boolean;
