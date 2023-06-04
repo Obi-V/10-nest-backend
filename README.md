@@ -1,5 +1,14 @@
 # Backend en nest
 
+### Advertencia
+A partir de este proyecto la cosa se complica muchísimo y no recomiendo verlo si no tienes ni idea de cruds, backend, JWT y funciones asíncronas.  
+  
+Por falta de tiempo obviamente no estoy documentando y comentando todo como debería paso a paso y didácticamente.  
+  
+
+Solo recomiendo el proyecto para personas más avanzadas y que tengan ganas de trastearlo.  
+De hecho solo actualmente solo tiene dos enpoints que funcionan, una actividad interesante sería ver su funcionamiento y que completases los demás. Puede ser un reto pero no imposible :D
+
 ## Instalaciones necesarias
 Necesario: `MongoDBCompass`( Base de datos no relacional),
 `Docker Desktop` (Ejecutar aplicaciones como si fuera una máquina virtual)
