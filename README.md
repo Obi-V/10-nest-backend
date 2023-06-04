@@ -24,8 +24,7 @@ $ nest new project-name
 En docker vamos a buscar la imagen de **mongo** en la barra de búsqueda y buscamos la **versión 5.0.16**.  
   
   Deberíamos crear el archivo **docker-compose.yml**, configuración para conectar la base de datos mongo, yo no lo he puesto en el git ignore así que debería ya configurado aparecer al descargar el proyecto, pero estaría bien echarle un vistazo (Sin tocar nada porque una tabulación puede arruinarlo todo).  
-    
-    Para montar el yml usamos el siguiente comando:
+  Para montar el yml usamos el siguiente comando:
 ```
 docker compose up -d
 
