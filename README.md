@@ -17,17 +17,39 @@ $ npm i -g @nestjs/cli
 
 ```
 $ nest new project-name  
-
 ```
 ## Docker  
 
 En docker vamos a buscar la imagen de **mongo** en la barra de búsqueda y buscamos la **versión 5.0.16**.  
   
   Deberíamos crear el archivo **docker-compose.yml**, configuración para conectar la base de datos mongo, yo no lo he puesto en el git ignore así que debería ya configurado aparecer al descargar el proyecto, pero estaría bien echarle un vistazo (Sin tocar nada porque una tabulación puede arruinarlo todo).  
+    
+
   Para montar el yml usamos el siguiente comando:
 ```
 docker compose up -d
-
+```
+## Variables de Entorno
+Debes copiar el `.env.template` y renombrarlo a `.env` con tu URL, el .env original está en git ignore por lo que no podrás descargarlo, pero en este caso he dejado la misma URL porque supuestamente vamos a usar la misma con el mismo puerto (27017), si quieres cambiar algo deberías cambiar la URL del `.env`.  
+  
+Una vez que ya lo tengamos todo ya podemos usar el backend con el comando:  
+```
+npm run start:dev
 ```
 
-Copiar el `.env.template` y renombrarlo a `.env` con tu URL
+## Documentación
+Dejo algunos enlaces de documentación que nos pueden ayudar:  
+
+**Documentación oficial de nestjs**
+```
+https://docs.nestjs.com/
+```
+**Página de atajos del curso que estoy siguiendo**
+```
+https://devtalles.com/files/nest-cheatsheet.pdf
+```
+
+**Podeis ver también la página del profesor del curso y encontrar otros cursos que podrían resultar interesantes**
+```
+https://cursos.devtalles.com/
+```
