@@ -3,7 +3,7 @@
 ### Advertencia
 A partir de este proyecto la cosa se complica muchísimo y no recomiendo verlo si no tienes ni idea de cruds, backend, JWT y funciones asíncronas.  
   
-Por falta de tiempo obviamente no estoy documentando y comentando todo como debería paso a paso y didácticamente.  
+Por falta de tiempo obviamente no estoy documentando y comentando todo como debería paso a paso y didácticamente, quizá lo haga en un futuro cuando vuelva a repasar las aplicaciones.  
   
 
 Solo recomiendo el proyecto para personas más avanzadas y que tengan ganas de trastearlo.  
