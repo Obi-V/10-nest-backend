@@ -62,3 +62,12 @@ https://devtalles.com/files/nest-cheatsheet.pdf
 ```
 https://cursos.devtalles.com/
 ```
+
+## Curso
+Todas estas aplicaciones son sacadas del curso de Fernando herrera [Angular: De cero a experto](https://www.udemy.com/course/angular-fernando-herrera/), recomiendo comprarlo ya que en el curso se explica todo muchísimo mejor y más detalladamente, además el curso se actualiza cada poco tiempo.  
+
+Muy buen curso, lo recomiendo siempre que tengas tiempo.
+
+
+### Texto creado con la ayuda de chatGTP
+
